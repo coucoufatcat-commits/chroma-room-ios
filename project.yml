@@ -1,0 +1,25 @@
+name: ChromaRoom
+options:
+  bundleIdPrefix: com.chromaroom
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  ChromaRoom:
+    type: application
+    platform: iOS
+    sources:
+      - path: ChromaRoom
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chromaroom.ios
+        PRODUCT_NAME: CHROMA ROOM
+        INFOPLIST_KEY_CFBundleDisplayName: CHROMA ROOM
+        INFOPLIST_KEY_NSCameraUsageDescription: "CHROMA ROOM 使用相机拍摄胶片风格照片。"
+        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "CHROMA ROOM 将显影后的照片保存到你的照片图库。"
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "CHROMA ROOM 需要照片权限以便导入和处理照片。"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGNING_ALLOWED: NO
