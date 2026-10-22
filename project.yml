@@ -8,7 +8,9 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: ChromaRoom
+      - path: 
+      includes:
+      - "*.swift"
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.chromaroom.ios
