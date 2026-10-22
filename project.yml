@@ -8,7 +8,7 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: 
+      - path：.
       includes:
       - "*.swift"
     settings:
